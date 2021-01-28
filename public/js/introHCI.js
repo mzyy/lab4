@@ -8,6 +8,7 @@ $(document).ready(function() {
 /*
  * Function that is called when the document is ready.
  */
-function initializePage() {
+function initializePage() {$("a.thumbnail").click(projectClick); 
+
 	// add any functionality and listeners you want here
 }
